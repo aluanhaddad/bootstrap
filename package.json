@@ -80,6 +80,7 @@
     },
     "files": [
       "css",
+      "less",
       "fonts",
       "js"
     ]
