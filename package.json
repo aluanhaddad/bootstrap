@@ -18,7 +18,7 @@
   },
   "style": "dist/css/bootstrap.css",
   "less": "less/bootstrap.less",
-  "main": "dist/js/boostrap",
+  "main": "./dist/js/npm",
   "repository": {
     "type": "git",
     "url": "https://github.com/twbs/bootstrap.git"
@@ -71,9 +71,9 @@
     "LICENSE"
   ],
   "jspm": {
-    "main": "js/bootstrap",
+    "main": "dist/js/bootstrap",
     "shim": {
-      "js/bootstrap": {
+      "dist/js/bootstrap": {
         "deps": "jquery",
         "exports": "$"
       }
@@ -82,8 +82,7 @@
       "css",
       "less",
       "fonts",
-      "js",
-      "dist"
+      "js"
     ]
   }
 }
