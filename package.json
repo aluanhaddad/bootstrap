@@ -82,7 +82,8 @@
       "css",
       "less",
       "fonts",
-      "js"
+      "js",
+      "dist"
     ]
   }
 }
